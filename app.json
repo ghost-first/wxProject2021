@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/feedback/feedback",
+    "pages/star/star",
+    "pages/introduction/introduction",
+    "pages/notification/notification",
+    "pages/schedule/schedule",
+    "pages/gameStart/gameStart",
+    "pages/game/game",
+    "pages/detailArticle/detailArticle",
+    "pages/detailList/detailList",
+    "pages/input/input"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校运通",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": false,
+    "color": "#a9b7b7",
+    "selectedColor": "#1E1E1E",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "/images/full_home.png",
+        "iconPath": "/images/Home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/images/full_search.png",
+        "iconPath": "/images/search.png",
+        "pagePath": "pages/input/input",
+        "text": "成绩查看"
+      },
+      {
+        "selectedIconPath": "/images/full_game.png",
+        "iconPath": "/images/game.png",
+        "pagePath": "pages/gameStart/gameStart",
+        "text": "小游戏"
+      },
+      {
+        "selectedIconPath": "/images/full_user.png",
+        "iconPath": "/images/user.png",
+        "pagePath": "pages/user/user",
+        "text": "用户"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index"
+  }
+}

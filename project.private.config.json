@@ -1,0 +1,95 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/user",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/introduction/introduction",
+          "pathName": "pages/introduction/introduction",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/gameStart/gameStart",
+          "pathName": "pages/gameStart/gameStart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/game/game",
+          "pathName": "pages/game/game",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/news/news",
+          "pathName": "pages/news/news",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/notification/notification",
+          "pathName": "pages/notification/notification",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/schedule/schedule",
+          "pathName": "pages/schedule/schedule",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detailArticle/detailArticle",
+          "pathName": "pages/detailArticle/detailArticle",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detailList/detailList",
+          "pathName": "pages/detailList/detailList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detailList/detailList",
+          "pathName": "pages/detailList/detailList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/input/input",
+          "pathName": "pages/input/input",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/schedule/schedule",
+          "pathName": "pages/schedule/schedule",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
