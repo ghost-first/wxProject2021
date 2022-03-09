@@ -1,0 +1,21 @@
+<!--pages/detailArticle/detailArticle.wxml-->
+<view class="container">
+  <view class="image-line">
+    <!-- <image class="left" src="{{left}}" mode="widthFix"></image> -->
+    <image class="right" src="{{img}}" mode="widthFix"></image>
+  </view>
+
+  <view class="background">
+    <view class="title">
+      <text decode="{{true}}" space="{{true}}">
+          {{article[id].title}}
+        </text>
+    </view>
+    <view class="content">
+        <text decode="{{true}}" space="{{true}}">
+          {{article[id].content}}
+        </text>
+    </view>
+  </view>
+
+</view>

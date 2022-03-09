@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="title">通知</view>
+  <view  wx:for="{{list}}" class="list {{colorName[index]}} card-style" wx:key="key"
+  id="{{index}}" bindtap="detailList">
+    <view class="title">{{item.title}}</view>
+    <view>{{item.content}}</view>
+    <view class="time">{{item.time}}</view>
+  </view>
+</view>

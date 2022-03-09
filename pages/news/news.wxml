@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="title">通讯稿</view>
+  <view  wx:for="{{article}}" class="article card-style {{colorName[index%4]}}" wx:key="key">
+    <view>
+      <text decode="{{true}}" space="{{true}}">
+        &nbsp;&nbsp;&nbsp;&nbsp;{{item.content}}
+      </text>
+    </view>
+  </view>
+
+</view>

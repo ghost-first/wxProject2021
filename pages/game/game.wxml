@@ -1,0 +1,29 @@
+<!--pages/game/game.wxml-->
+<view class="container" wx:if="{{visual}}">
+  <view>
+    得分：{{score}}
+  </view>
+  <view class="tip">温馨提示：请将正确答案拖拽至中间，答题后请点击下一题~</view>
+  <text>{{question[NO].title}}</text>
+
+  <movable-area class="movaArea">
+    <movable-view wx:for="{{name}}" wx:key="key" damping="50"
+    direction="all" id="{{index}}" bindchange="moveChange"
+    x="{{position[index].x}}" 
+    y="{{position[index].y}}">
+      <image src="{{question[NO].imgUrl[index]}}" mode="widthFix"></image>
+    </movable-view>
+     
+    <image class="correctImg" src="{{correctImg[NO]}}" mode="widthFix"></image>
+  </movable-area>
+  <van-button class="button" color="#7232dd" size="large" plain bindtap="next">下一题</van-button>
+</view>
+
+<view class="container" wx:if="{{!visual}}">
+  <image class="finishImg" src="{{finishImg}}" mode="widthFix"></image>
+  <view class="finishText">
+    恭喜完成答题，得分：{{score}}
+  </view>
+  
+</view>
+

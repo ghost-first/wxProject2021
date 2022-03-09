@@ -1,0 +1,10 @@
+/* pages/gameStart/gameStart.wxss */
+image{
+  width: 80%;
+}
+
+.start-button{
+  position: relative;
+  width: 60%;
+  top:150rpx;
+}

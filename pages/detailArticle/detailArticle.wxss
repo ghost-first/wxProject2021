@@ -1,0 +1,29 @@
+/* pages/introduction/introduction.wxss */
+.image-line{
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  width: 80%;
+}
+.right{
+  position: relative;
+  width: 80rpx;
+  right:30rpx;
+}
+
+.title{
+  font-size: 50rpx;
+  font-weight: bold;
+  font-family: cursive;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ffcc00;
+  background: #fffff7;
+  width: 80%;
+  border-radius: 1.3em;
+  margin: 30rpx 0;
+  padding: 10rpx 20rpx 40rpx 20rpx;
+}

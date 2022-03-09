@@ -1,0 +1,4 @@
+<!--pages/schedule/schedule.wxml-->
+<view>
+  <image src="../../images/gameTable.png" mode="widthFix"></image>
+</view>

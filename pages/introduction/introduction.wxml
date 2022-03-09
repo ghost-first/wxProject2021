@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="image-line">
+    <!-- <image class="left" src="{{left}}" mode="widthFix"></image> -->
+    <image class="right" src="{{right}}" mode="widthFix"></image>
+  </view>
+  <view class="background">
+    <view class="title">赛事介绍</view>
+    <view class="content">
+      <view>
+        <text decode="{{true}}" space="{{true}}">
+          &nbsp;&nbsp;沐浴着秋日的暖阳，在这个收获的季节，我们即将迎来了本年度的秋季运动会。本次xx大学秋季运动会
+由学校体育学院主办，校团委、学生会承办。过去的一年里，学校各项工作取得长足发展，全校教职员
+工锐意开拓进取，共同努力为创办国际知名高校的办学目标而奋进。本次的运动会是一个展示我校素质
+教育工作进展，展示全校同学精神风貌的盛会。\n
+&nbsp;&nbsp;本次的运动会设立了包括田赛、径赛、球类等在内的各类比赛项目，在学校三个赛区的数十个运动场馆
+进行，并配备了齐全的后勤设施。校医院为运动员和观众提供了医疗支持，保证大家安全健康参赛观
+赛。学生会同学负责了比赛中维护秩序、成绩记录等工作。
+        </text>
+      </view>
+    </view>
+  </view>
+</view>

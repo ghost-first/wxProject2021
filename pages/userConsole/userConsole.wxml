@@ -1,0 +1,1 @@
+<button bindtap="addData">新增数据</button><button bindtap="addData1">新增数据</button><button bindtap="addData2">新增数据</button>

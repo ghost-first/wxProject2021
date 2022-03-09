@@ -1,0 +1,115 @@
+/* pages/user/user.wxss */
+page {
+  /* background-color: #f5f5f5; */
+  background-color: white;
+}
+
+.skheader{
+  padding-bottom: 20px;
+  color:white;
+  background-image: linear-gradient(180deg,#34aaff,#fff);
+  height: 60vh;
+  position: relative;
+}
+
+.userInfo{
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 70rpx;
+}
+
+.user-icon-container {
+  margin-top: 3vh;
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2.8vh;
+}
+
+.userinfo-avatar{
+  overflow: hidden;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin-bottom: 15rpx;
+}
+
+.nickName{
+  position: relative;
+  left: 3rpx;
+}
+
+.skspace{
+  height: 10px;
+  background-color: #f5f5f5;
+  clear:both;
+  border:solid #ddd 1px;
+  border-left: none;
+  border-right: none;
+}
+
+.userContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.A{
+  height: 90rpx;
+  flex-direction: row;
+  background-color: white;
+  margin-bottom: 5rpx;
+}
+
+.text-huge{
+  position: relative;
+  left: 30rpx;
+  bottom: 35rpx;
+  padding-bottom: 30rpx;
+}
+
+.float-right{
+  clear: both;
+  float: right;
+}
+
+.float-left{
+  clear: both;
+  float: left;
+}
+
+image{
+  width: 60rpx;
+  height: 60rpx;
+  padding: 15rpx 0;
+  clear: both;
+}
+
+.tzq-user-content {
+  position: relative;
+}
+
+.tzq-user-main {
+  position: absolute;
+  width: 87%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -220rpx;
+  border-radius: 8%;
+}
+
+.tzq-user-items {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+     rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.tzq-cell-group {
+  margin: 12px 12px 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+

@@ -1,0 +1,37 @@
+/* pages/introduction/introduction.wxss */
+.title{
+  font-size: 50rpx;
+  font-weight: bold;
+  font-family: cursive;
+  padding: 2vh;
+}
+
+.time{
+  position: relative;
+  left: 160rpx;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #87CECD;
+  width: 70%;
+  height: 400rpx;
+  margin: 60rpx 20rpx 60rpx 20rpx;
+  padding: 0 70rpx 40rpx 70rpx;
+}
+
+.ca{
+  background-color:#A2B5BE;
+}
+.cb{
+  background-color:#E9AD60;
+}
+.cc{
+  background-color:#528DA4;
+}
+.cd{
+  background-color:#D1E1D7;
+}

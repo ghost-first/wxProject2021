@@ -1,0 +1,7 @@
+<view class="container">
+  <image src="{{img}}" mode="widthFix"></image>
+  <navigator class="start-button" url="/pages/game/game">
+    <van-button color="#7232dd" size="large" plain>开始游戏</van-button>
+  </navigator>
+  
+</view>

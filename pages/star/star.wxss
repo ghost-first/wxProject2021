@@ -1,0 +1,37 @@
+/* pages/star/star.wxss */
+.tzq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tzq-image-container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.tzq-image {
+    transform: scale(0.5, 0.5);
+}
+
+.tzq-rate-container {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+
+.tzq-button-container {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+}
+
+.tzq-button {
+    margin: 0 auto;
+    padding: 0;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    /* background-color: rgb(255, 127, 0) !important;
+    color: white !important; */
+}

@@ -1,0 +1,14 @@
+<!-- pages/star/star.wxml -->
+<!-- <text>pages/star/star.wxml</text> -->
+<view class="tzq-container">
+    <view class="tzq-image-container">
+        <image src="/images/star.png" class="tzq-image" />
+    </view>
+    <view class="tzq-rate-container">
+        <van-rate value="{{ starValue }}" size="{{ 25 }}" color="rgb(255, 210, 30)" void-color="#eee" void-icon="star" bind:change="onChange" />
+    </view>
+    <view class="tzq-button-container">
+        <van-button class="tzq-button" bindtap="submit">请为我们评分！</van-button>
+        <van-toast id="van-toast" />
+    </view>
+</view>

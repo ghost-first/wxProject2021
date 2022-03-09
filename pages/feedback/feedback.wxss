@@ -1,0 +1,49 @@
+/* pages/feedback/feedback.wxss */
+.tzq-image-container {
+    /* padding: 10vh 10vh 10vh 10vh;
+    height: 30vh; */
+    /* background-color: red; */
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.tzq-image {
+    margin-top: 5vh;
+    transform: scale(0.33, 0.45) translateX(5vw);
+}
+
+.tzq-button-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tzq-button {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    width: 50vw !important;
+    height: 9vh;
+    border-radius: 10vh;
+    font-size: 36rpx;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 78rpx;
+    /* margin-top: 106rpx; */
+    letter-spacing: 2rpx;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.tzq-feedback-word {
+    position: absolute;
+    margin-top: 1.3vh;
+}

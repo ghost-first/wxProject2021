@@ -1,0 +1,73 @@
+<view class="top">
+    <view class="topsearch">
+        <view class="frame">
+            <input value="{{shoopingtext}}" bindinput="shoppinginput"></input>
+        </view>
+        <text bindtap="search">搜索</text>
+    </view>
+</view>
+<view class="history" wx:if="{{history}}">
+    <view class="history_title">
+        <text>历史搜索</text>
+        <image src="/images/delete.png" mode="widthFix" style="width:5%;" bindtap="cleanhistory"></image>
+    </view>
+    <view class="history_text">
+        <text wx:for="{{newArray}}" wx:key="key" data-text="{{item}}" bindtap="textfz">{{item}}</text>
+    </view>
+</view>
+<view class="none" wx:if="{{noneview}}">
+    <image src="/images/Sorry.png" mode="widthFix" style="width:20%"></image>
+    <text>抱歉，没有相关结果</text>
+</view>
+<view class='swiper_con' wx:if="{{shoppinglist}}">
+    <view class='swiper_con_view' wx:for="{{shoopingarray}}" wx:key="id" wx:if='{{item.status=="1"?true:false}}'>
+        <image src="{{item.images}}" mode="widthFix" style="width:100%" data-status="{{item.status}}"></image>
+    </view>
+</view>
+
+
+
+
+<view id='eachframe'>
+    <i-divider color="#2d8cf0" lineColor="#2d8cf0">团队获奖情况</i-divider>
+    <view><text>\n</text></view>
+    <view class="slide" id="slide" bindtouchstart='moveStart' bindtouchend='moveItem'>
+
+        <block wx:for="{{datas}}" wx:key="id">
+            <li animation="{{item.animation}}" style="z-index: {{item.zIndex}} ;opacity:{{item.opacity}};"
+                bindtap="choose" data-id="{{item.id}}">
+                <image src="{{item.iamge}}"></image>
+            </li>
+        </block>
+    </view>
+    <view><text>\n</text></view>
+</view>
+
+<view id='eachframe1'>
+    <i-divider color="#2d8cf0" lineColor="#2d8cf0">男生获奖情况</i-divider>
+    <view><text>\n</text></view>
+    <view class="slide" id="slide" bindtouchstart='moveStart' bindtouchend='moveItem'>
+
+        <block wx:for="{{datas1}}" wx:key="id">
+            <li animation="{{item.animation}}" style="z-index: {{item.zIndex}} ;opacity:{{item.opacity}};"
+                bindtap="choose1" data-id="{{item.id}}">
+                <image src="{{item.iamge}}"></image>
+            </li>
+        </block>
+    </view>
+    <view><text>\n</text></view>
+</view>
+
+<view id='eachframe2'>
+    <i-divider color="#ed3f14" lineColor="#ed3f14">女生获奖情况</i-divider>
+    <view><text>\n</text></view>
+    <view class="slide" id="slide" bindtouchstart='moveStart' bindtouchend='moveItem'>
+
+        <block wx:for="{{datas2}}" wx:key="id">
+            <li animation="{{item.animation}}" style="z-index: {{item.zIndex}} ;opacity:{{item.opacity}};"
+                bindtap="choose2" data-id="{{item.id}}">
+                <image src="{{item.iamge}}"></image>
+            </li>
+        </block>
+    </view>
+</view>

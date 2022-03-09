@@ -1,0 +1,51 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+
+  <view class="swiper-back">
+    <view class="swiper-text">Sport | 校运</view>
+
+    <swiper  class="swiper-top" autoplay interval="3000" indicator-dots 
+indicator-active-color="white">
+      <swiper-item wx:for="{{swiperImg}}" wx:key="key">
+       <image src="{{item}}" mode="widthFix"></image>
+      </swiper-item>
+    </swiper>
+    
+  </view>
+
+  <view class="card-style move-box" style="--oWidth--:{{objWidth}};--sWidth--:{{strWidth}};">
+    <view class="move-inner">{{moveText}}</view>
+  </view>
+
+  <view class="card-style icon-back">
+    <view class="icon-four"  wx:for="{{iconFour}}" wx:key="key">
+      <view>
+        <navigator url="{{item.url}}" >
+      <!-- <icon type="{{item.type}}" size="{{item.size}}"></icon> -->
+        <image src="{{item.img}}" mode="widthFix"></image>
+       </navigator>
+      </view>
+      <view>
+        {{item.title}}
+      </view>
+      
+    </view>
+  </view>
+
+  <view  wx:for="{{article}}" class="article {{colorName[index%4]}} card-style" wx:key="key"
+  id="{{index}}" bindtap="detailArticle">
+    <view class="title">{{item.title}}</view>
+    <view class="remain">
+      <view class="remain_img">
+        <image src="{{item.img}}" mode="widthFix"></image>
+      </view>
+    </view>
+
+    <view class="content">{{item.content}}</view>
+
+  </view>
+
+</view>
+<!-- <cover-view class="card-style tabbar">
+
+</cover-view> -->

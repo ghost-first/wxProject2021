@@ -1,0 +1,28 @@
+<!--pages/help/help.wxml-->
+<view class="tzq-container">
+    <view class="tzq-words">
+        <text decode="{{true}}" space="{{true}}">
+本小程序由“主页”“成绩公布”“小游戏”“我的”四个部分组成：\n
+1. 主页
+&nbsp;&nbsp;&nbsp;&nbsp;a. 在轮播图的下方，小程序提供了四个小模块，每个小模块都对应着响应的功能：
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. 赛事介绍：本模块包含了对运动会赛事的简要介绍，帮助用户快速了解本次大赛；
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. 通讯稿：本模块将会展现运动会官方选取的通讯稿，体现运动员的风采；
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. 通知：本模块将会展现有关赛事的通知，维持比赛的正常进行；
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. 赛程表：本模块将会展现本次赛事的赛程表，为观众观赛、运动员参赛提供帮助；
+&nbsp;&nbsp;&nbsp;&nbsp;b. 在主页的下半部分将会展现一系列的科普小文章，可以为用户提供一些运动小技巧与健康小贴士，给用户提供极致体验
+
+2. 成绩公布
+&nbsp;&nbsp;&nbsp;&nbsp;a. 小程序为用户提供了成绩查询的信息检索服务，用户可以在搜索框中输入关键字，小程序会将用户所需要的查询结果展现在页面上；
+&nbsp;&nbsp;&nbsp;&nbsp;b. “成绩公布模块”的第二部分包含了所有比赛的最终成绩，用户可以在这里查看到比赛名称、排名、参赛者姓名/团队名、比赛成绩等
+
+3. 小游戏
+
+4. 我的
+&nbsp;&nbsp;&nbsp;&nbsp;a. 小程序使用延迟登录，即在需要时才提示用户进行登录，不强制要求用户进行登录操作。
+&nbsp;&nbsp;&nbsp;&nbsp;b. 小程序提供“意见反馈”的API，用户可以通过该模块提交宝贵的建议，帮助小程序团队对小程序进行进一步的优化。
+&nbsp;&nbsp;&nbsp;&nbsp;c. 小程序为用户提供“评分”功能，用户可以通过评分功能来对小程序进行评价，并可以查看小程序的用户认可度。
+&nbsp;&nbsp;&nbsp;&nbsp;d. 小程序为用户提供“帮助手册”（即本模块），意在快速帮助用户上手本小程序。
+&nbsp;&nbsp;&nbsp;&nbsp;e. 小程序提供版权声明，尽全力保护用户的合法权益。
+        </text>
+    </view>
+</view>

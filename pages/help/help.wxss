@@ -1,0 +1,13 @@
+/* pages/help/help.wxss */
+.tzq-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tzq-words {
+    border: 1px solid #96c2f1;
+    background: #eff7ff;
+    margin: 5vh 10vw 5vh 10vw;
+    padding: 2vh 7vw;
+    border-radius: 1.2em;
+}
